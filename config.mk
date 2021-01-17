@@ -28,14 +28,17 @@ endef
 # Projects will be started in this order
 define SUBPROJECT_REPOS
 https://github.com/reactioncommerce/reaction-hydra.git,reaction-hydra,v3.0.0 \
-https://github.com/reactioncommerce/reaction.git,reaction,v3.11.0 \
+https://github.com/Eduard-Hasa/reaction.git,reaction,v3.11.0 \
 https://github.com/reactioncommerce/reaction-identity.git,reaction-identity,v3.3.0 \
-https://github.com/reactioncommerce/reaction-admin.git,reaction-admin,v3.0.0-beta.11 \
-https://github.com/reactioncommerce/example-storefront.git,example-storefront,v4.0.0
+https://github.com/Eduard-Hasa/reaction-admin.git,reaction-admin,v3.0.0-beta.11 \
+https://github.com/Eduard-Hasa/storefront-v1.git,storefront-v1,v4.0.0
 endef
 
 # These are all the plugins that `make clone-api-plugins` will clone.
 # `api-core` is not technically a plugin but is useful to have in the
+
+
+
 # same place.
 define API_PLUGIN_REPOS
 https://github.com/reactioncommerce/api-core.git \
