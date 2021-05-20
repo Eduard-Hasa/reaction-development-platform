@@ -30,8 +30,8 @@ define SUBPROJECT_REPOS
 https://github.com/reactioncommerce/reaction-hydra.git,reaction-hydra,v3.0.0 \
 https://github.com/Eduard-Hasa/reaction.git,reaction,v3.11.0 \
 https://github.com/reactioncommerce/reaction-identity.git,reaction-identity,v3.3.0 \
-https://github.com/Eduard-Hasa/reaction-admin.git,reaction-admin,v3.0.0-beta.11 \
-https://github.com/Eduard-Hasa/storefront-v1.git,storefront-v1,v4.0.0
+https://github.com/Eduard-Hasa/reaction-admin.git,reaction-admin \
+https://github.com/Eduard-Hasa/storefront-v1.git,storefront-v1
 endef
 
 # These are all the plugins that `make clone-api-plugins` will clone.
@@ -46,6 +46,7 @@ https://github.com/reactioncommerce/api-plugin-accounts.git \
 https://github.com/reactioncommerce/api-plugin-address-validation-test.git \
 https://github.com/reactioncommerce/api-plugin-address-validation.git \
 https://github.com/reactioncommerce/api-plugin-authentication.git \
+https://github.com/Eduard-Hasa/api-plugin-authentication-cognito.git \
 https://github.com/reactioncommerce/api-plugin-authorization-simple.git \
 https://github.com/reactioncommerce/api-plugin-carts.git \
 https://github.com/reactioncommerce/api-plugin-catalogs.git \
@@ -78,7 +79,8 @@ https://github.com/reactioncommerce/api-plugin-system-information.git \
 https://github.com/reactioncommerce/api-plugin-tags.git \
 https://github.com/reactioncommerce/api-plugin-taxes-flat-rate.git \
 https://github.com/reactioncommerce/api-plugin-taxes.git \
-https://github.com/reactioncommerce/api-plugin-translations.git
+https://github.com/reactioncommerce/api-plugin-translations.git \
+https://github.com/Eduard-Hasa/api-plugin-fulfillment-products.git
 endef
 
 # List of user defined networks that should be created.
